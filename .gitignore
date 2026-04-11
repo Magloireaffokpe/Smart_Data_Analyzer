@@ -1,0 +1,52 @@
+# =======================
+#  Frontend (React/Vite)
+# =======================
+node_modules/
+dist/
+dist-ssr/
+*.local
+.env
+.env.*
+!.env.example
+
+# =======================
+#  Backend (FastAPI)
+# =======================
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+.venv
+venv/
+ENV/
+env/
+*.egg-info/
+*.egg
+.pytest_cache/
+.coverage
+htmlcov/
+.DS_Store
+
+# =======================
+#  IDEs & OS
+# =======================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+Thumbs.db
+.DS_Store
+
+# =======================
+#  Logs & databases
+# =======================
+*.log
+*.sqlite
+*.db
+
+# =======================
+#  Uploads / temp
+# =======================
+uploads/
+temp/
